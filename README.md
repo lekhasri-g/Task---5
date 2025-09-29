@@ -2,4 +2,4 @@
 # Capture and Analyze Network Traffic Using Wireshark
 # Name: Lekha Sri G 
 # Date: 29/9/2025
-# Contents: Screenshots, Overview, wireshark.pcap file
+# Contents: Screenshots, Overview, Wireshark Report, Wireshark text file, Wireshark.pcap file
