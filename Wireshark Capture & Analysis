@@ -1,0 +1,45 @@
+# Task 5 “Wireshark Capture & Analysis"
+
+
+- **OS / Tool:** Wireshark vX.X on <Windows/Linux/macOS>
+
+---
+
+## Objective
+Capture live network packets using Wireshark, identify at least 3 protocols, analyze sample packets, and prepare a short report.
+
+---
+
+## Steps Performed
+1. Installed Wireshark and verified packet capture permissions.
+2. Started capture on the active interface (Wi-Fi/Ethernet).
+3. Generated traffic using:
+   - `ping google.com`
+   - `nslookup example.com` / `dig example.com`
+   - `curl http://neverssl.com`
+   - Browser visits to `http://neverssl.com` and `https://example.com`
+4. Stopped capture after ~1 minute and saved as `task5_capture_LekhaSri.pcap`.
+5. Used Wireshark display filters (`dns`, `http`, `tls`) for analysis.
+6. Exported findings and screenshots into `report_task5.pdf`.
+
+---
+
+## Protocols Identified
+- **DNS** â€“ X packets â€“ Example Packet #___  
+- **HTTP** â€“ Y packets â€“ Example Packet #___  
+- **TLS** â€“ Z packets â€“ Example Packet #___  
+
+---
+
+## Key Findings
+- Captured live packets successfully.
+- Identified DNS, HTTP, and TLS protocols.
+- Learned how to use display filters for deeper inspection.
+
+---
+
+## Files in this Repository
+- `captures/task5_capture_LekhaSri.pcap`
+- `report/report_task5.pdf`
+- `images/` (screenshots)
+- `README.md`
